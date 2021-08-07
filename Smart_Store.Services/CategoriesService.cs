@@ -18,6 +18,11 @@ namespace Smart_Store.Services
             }
         }
 
+        public object GetCategories()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Category> GetCategories(int iD)
         {
             using (var context = new SmartStoreContext())
