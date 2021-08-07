@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart_Store.Entities", "Sma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart_Store.Database", "Smart_Store.Database\Smart_Store.Database.csproj", "{545A7ED1-0196-4CA5-9D64-B566D11921D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart_Store.Services", "Smart_Store.Services\Smart_Store.Services.csproj", "{54FDAEF7-4425-4DBC-A7EC-F96B72474E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{545A7ED1-0196-4CA5-9D64-B566D11921D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545A7ED1-0196-4CA5-9D64-B566D11921D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545A7ED1-0196-4CA5-9D64-B566D11921D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FDAEF7-4425-4DBC-A7EC-F96B72474E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FDAEF7-4425-4DBC-A7EC-F96B72474E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FDAEF7-4425-4DBC-A7EC-F96B72474E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FDAEF7-4425-4DBC-A7EC-F96B72474E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

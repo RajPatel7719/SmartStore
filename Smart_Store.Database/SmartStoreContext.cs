@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Smart_Store.Database
 {
-    public class SmartStoreContext : DbContext
+    public class SmartStoreContext : DbContext, IDisposable
     {
         public SmartStoreContext() : base("SmartStoreConnection")
         {
-
+            
         }
 
         public DbSet<Category> Categories { get; set; }
