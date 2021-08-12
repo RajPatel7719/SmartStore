@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Bootstrap  -->
-    <link rel="stylesheet" type="text/css" href="~/content/stylesheets/bootstrap.css">
-
+    @*<link rel="stylesheet" type="text/css" href="~/Content/stylesheets/bootstrap.css">*@
+    <link href="~/Content/stylesheets/bootstrap.css" rel="stylesheet" />
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="~/content/stylesheets/style.css">
     <link rel="stylesheet" type="text/css" href="~/content/stylesheets/responsive.css">
@@ -27,7 +27,9 @@
 
     <!-- Favicon and touch icons  -->
     <link href="~/content/icon/favicon.png" rel="shortcut icon">
-    
+
+    <script src="~/Content/javascript/jquery.min.js"></script>
+
     <!--[if lt IE 9]>
         <script src="~/content/javascript/html5shiv.js"></script>
         <script src="~/content/javascript/respond.min.js"></script>
@@ -47,7 +49,8 @@
                 <div class="container clearfix" id="site-header-inner">
                     <div id="logo" class="logo float-left">
                         <a href="index.html" title="logo">
-                            <img src="~/content/images/logo.png" alt="image" width="107" height="24" data-retina="images/logo@2x.png" data-width="107" data-height="24">
+                            <img src="~/Content/images/logo@2x.png" alt="image" width="107" height="24" />
+                            @*<img src="~/Content/images/logo@2x.png" alt="image" width="107" height="24" data-retina="~/Content/images/logo@2x.png" data-width="107" data-height="24">*@
                         </a>
                     </div><!-- /.logo -->
                     <div class="mobile-button"><span></span></div>
@@ -256,8 +259,8 @@
     </div>
 
 
-    <!-- Javascript -->
-    <script src="~/Content/javascript/jquery.min.js"></script>
+    <!-- JavaScript -->
+    
     <script src="~/Content/javascript/tether.min.js"></script>
     <script src="~/Content/javascript/bootstrap.min.js"></script>
     <script src="~/Content/javascript/jquery.easing.js"></script>
